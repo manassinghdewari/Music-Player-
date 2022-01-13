@@ -20,7 +20,6 @@ const pauseMusic=()=>{
 }
 
 play.addEventListener('click',()=>{
-    console.log("hello");
     if(isPlaying){
         pauseMusic();
     }
@@ -67,21 +66,35 @@ const loadSong=(songs)=>
 }
 
  let songIndex=0;
- const nextSong=()=>
+//  const nextSong=()=>
+//  {
+//      if(songIndex===songs.length-1)
+//      songIndex=0;
+//      else
+//      songIndex++;
+//      loadSong(songs[songIndex]);
+//  };
+//we can do it by formula
+const nextSong=()=>
+{
+    songIndex=(songIndex+1)%songs.length;
+    loadSong(songs[songIndex]);
+    playMusic();
+};
+const prevSong=()=>
  {
-     if(songIndex===songs.length-1)
-     songIndex=0;
-     else
-     songIndex++;
+     songIndex=(songIndex-1+songs.length)%songs.length;
      loadSong(songs[songIndex]);
- };
- const prevSong=()=>
- {
-     if(songIndex==0)
-     songIndex=songs.length-1;
-     else
-     songIndex--;
-     loadSong(songs[songIndex]);
+     playMusic();
  }
+//  const prevSong=()=>
+//  {
+//      if(songIndex==0)
+//      songIndex=songs.length-1;
+//      else
+//      songIndex--;
+//      loadSong(songs[songIndex]);
+//      playMusic();
+//  }
  next.addEventListener("click",nextSong);
  prev.addEventListener("click",prevSong);
