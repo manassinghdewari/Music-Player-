@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Music By Manas</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./images/fav_icon.png" type="image/x-icon">
 </head>
 <body>
-    
+    <div class="main_div">
+        <div class="music_container">
+            <h2 id="title">Madhuban</h2>
+            <h3 id="artist">Shaarib and Toshi</h3>
+            <div class="img_container">
+                <img src="./images/madhuban.jpg" alt="">
+            </div>
+            <!-- <audio src="./music/Madhuban.mp3" controls></audio> -->
+            <!-- we are commenting this bcz we want to hide it. -->
+            <audio src="./music/Madhuban.mp3" ></audio>
+            <!-- controls -->
+            <div class="music_controls">
+                <i class="fas fa-backward" id="prev" title="Previous"></i>
+                <i class="fas fa-play main_button" id="play" title="Play"></i>     
+                <i class="fas fa-forward" id="next" title="Next"></i>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
