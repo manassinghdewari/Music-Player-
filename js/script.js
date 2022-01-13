@@ -38,20 +38,83 @@ const next=document.getElementById("next");
 //it means each element of array contains an object
 const songs=
 [
+    
     {
-        name:"Madhuban",
-        title:"Madhuban",
-        artist:"Shaarib and Toshi",
+        name:"Tujhe Kitna Chahne Lage",
+        title:"Tujhe Kitna Chahne Lage",
+        artist:"Arijit Singh",
     },
+
+    {
+        name:"Mere Wala Sardar",
+        title:"Mere Wala Sardar",
+        artist:"Jugraj Sandhu",
+    },
+    
+    {
+        name:"Mann Jaa Ve",
+        title:"Mann Jaa Ve",
+        artist:"Rishita",
+    },
+    
+    {
+        name:"Agar Tum Saath Ho",
+        title:"Agar Tum Saath Ho",
+        artist:"Arijit Singh, Alka Yagnik",
+    },
+    
+    {
+        name:"Koi Vi Nahi",
+        title:"Koi Vi Nahi",
+        artist:"Shirley Setia, Gurnazar Chattha",
+    },
+    
+    {
+        name:"Duniyaa",
+        title:"Duniyaa",
+        artist:"Dhvani Bhanushali, Akhil Pasreja",
+    },
+    
     {
         name:"Rahogi Meri",
         title:"Rahogi Meri",
         artist:"Arjit Singh",
     },
+    
+    {
+        name:"Raataan Lambiyan",
+        title:"Raataan Lambiyan",
+        artist:"Jubin Nautiyal, Asees Kaur",
+    },
+    
     {
         name:"Tumse Bhi Zyada",
         title:"Tumse Bhi Zyada",
         artist:"Arjit Singh",
+    },
+
+    {
+        name:"Darkhaast",
+        title:"Darkhaast",
+        artist:"Mithoon",
+    },
+
+    {
+        name:"Hosanna",
+        title:"Hosanna",
+        artist:"Leon D'Souza, A. R. Rahman, Suzanne D'Mello",
+    },
+
+    {
+        name:"Chura Liya",
+        title:"Chura Liya",
+        artist:"Mohammed Rafi, Asha Bhoslei",
+    },
+    
+    {
+        name:"Madhuban",
+        title:"Madhuban",
+        artist:"Shaarib and Toshi",
     },
 ]
 
