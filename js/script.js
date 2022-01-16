@@ -46,6 +46,12 @@ const songs=
     },
 
     {
+        name:"Rahogi Meri",
+        title:"Rahogi Meri",
+        artist:"Arjit Singh",
+    },
+    
+    {
         name:"Mere Wala Sardar",
         title:"Mere Wala Sardar",
         artist:"Jugraj Sandhu",
@@ -73,12 +79,6 @@ const songs=
         name:"Duniyaa",
         title:"Duniyaa",
         artist:"Dhvani Bhanushali, Akhil Pasreja",
-    },
-    
-    {
-        name:"Rahogi Meri",
-        title:"Rahogi Meri",
-        artist:"Arjit Singh",
     },
     
     {
