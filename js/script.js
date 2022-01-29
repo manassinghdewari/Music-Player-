@@ -106,6 +106,12 @@ const songs=
     },
 
     {
+        name:"Jugnu",
+        title:"Jugnu",
+        artist:"Badshah",
+    },
+
+    {
         name:"Chura Liya",
         title:"Chura Liya",
         artist:"Mohammed Rafi, Asha Bhoslei",
