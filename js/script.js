@@ -4,6 +4,13 @@ const img=document.querySelector('img');
 const play=document.getElementById('play');
 let isPlaying=false;
 
+// preloader
+var preloader=document.getElementById('loading');
+function myFunction()
+{
+    preloader.style.display='none';
+}
+
 //play function
 const playMusic=()=>{
     isPlaying=true;
