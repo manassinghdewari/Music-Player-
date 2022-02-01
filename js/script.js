@@ -1,8 +1,4 @@
 'use strict';
-const music=document.querySelector('audio');
-const img=document.querySelector('img');
-const play=document.getElementById('play');
-let isPlaying=false;
 
 // preloader
 var preloader=document.getElementById('loading');
@@ -10,6 +6,11 @@ function myFunction()
 {
     preloader.style.display='none';
 }
+
+const music=document.querySelector('audio');
+const img=document.querySelector('img');
+const play=document.getElementById('play');
+let isPlaying=false;
 
 //play function
 const playMusic=()=>{
